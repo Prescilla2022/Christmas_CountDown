@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Christmas_CountDown/static/css/main.e149f58a.css",
-    "main.js": "/Christmas_CountDown/static/js/main.937bba99.js",
+    "main.js": "/Christmas_CountDown/static/js/main.0f780653.js",
     "static/js/787.cc5c3949.chunk.js": "/Christmas_CountDown/static/js/787.cc5c3949.chunk.js",
     "static/media/waldemar-brandt-bSeEaS91_ak-unsplash.jpg": "/Christmas_CountDown/static/media/waldemar-brandt-bSeEaS91_ak-unsplash.788b59bec66e2597d7ab.jpg",
     "index.html": "/Christmas_CountDown/index.html",
     "main.e149f58a.css.map": "/Christmas_CountDown/static/css/main.e149f58a.css.map",
-    "main.937bba99.js.map": "/Christmas_CountDown/static/js/main.937bba99.js.map",
+    "main.0f780653.js.map": "/Christmas_CountDown/static/js/main.0f780653.js.map",
     "787.cc5c3949.chunk.js.map": "/Christmas_CountDown/static/js/787.cc5c3949.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e149f58a.css",
-    "static/js/main.937bba99.js"
+    "static/js/main.0f780653.js"
   ]
 }
