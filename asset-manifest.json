@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Christmas_CountDown/static/css/main.64a6332d.css",
+    "main.js": "/Christmas_CountDown/static/js/main.d8b631cf.js",
+    "static/js/787.cc5c3949.chunk.js": "/Christmas_CountDown/static/js/787.cc5c3949.chunk.js",
+    "static/media/waldemar-brandt-bSeEaS91_ak-unsplash.jpg": "/Christmas_CountDown/static/media/waldemar-brandt-bSeEaS91_ak-unsplash.788b59bec66e2597d7ab.jpg",
+    "index.html": "/Christmas_CountDown/index.html",
+    "main.64a6332d.css.map": "/Christmas_CountDown/static/css/main.64a6332d.css.map",
+    "main.d8b631cf.js.map": "/Christmas_CountDown/static/js/main.d8b631cf.js.map",
+    "787.cc5c3949.chunk.js.map": "/Christmas_CountDown/static/js/787.cc5c3949.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.64a6332d.css",
+    "static/js/main.d8b631cf.js"
+  ]
+}
