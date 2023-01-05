@@ -5,7 +5,7 @@ export default function Message() {
   const month = { 1: "January", 12: "December" };
   const [displayArray, setDisplay] = useState([]);
   const messageArray = [];
-  const scrollToRef = useRef();
+  const scrollToRef = useRef(null);
   console.log(scrollToRef);
 
   console.log(localStorage);
@@ -43,7 +43,8 @@ export default function Message() {
         {item}
       </p>,
     ]);
-    scrollToRef.current.scrollIntoView();
+
+    scrollToRef.current?.scrollIntoView(true);
   }
   function clear() {
     setDisplay("");
@@ -53,15 +54,21 @@ export default function Message() {
   return (
     <div className="greetings">
       <div className="messages">{displayArray}</div>
-      <input
-        onChange={handleChange}
-        placeholder="Enter your message"
-        type="search"
-      ></input>
-      <section>
-        <button onClick={handleClick}>Submit</button>
-        <button onClick={clear}>Clear</button>
-      </section>
+      <form>
+        <input
+          onChange={handleChange}
+          placeholder="Enter your message"
+          type="text"
+          autoComplete="on"
+          name="message"
+        ></input>
+        <section>
+          <button type="submit" onClick={handleClick}>
+            Submit
+          </button>
+          <button onClick={clear}>Clear</button>
+        </section>
+      </form>
     </div>
   );
 }

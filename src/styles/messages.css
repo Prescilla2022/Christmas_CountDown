@@ -46,7 +46,7 @@ input {
   flex-direction: column;
   align-items: center;
 }
-.greetings > section > button {
+.greetings > form > section > button {
   width: 100px;
   border-radius: 10px;
   height: 30px;
